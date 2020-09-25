@@ -1,8 +1,8 @@
 import java.util.*;
 
-class Subsets {
+public class Subsets {
 //Cascading
-    public List<List<Integer>> subsets(int[] nums) {
+    public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         result.add(new ArrayList<>());
         for(int num : nums) {
@@ -17,6 +17,7 @@ class Subsets {
     }
     
     public static void main(String arg[]) {
-        int nums[] = 
+        int nums[] = {1,2,3};
+        System.out.println(subsets(nums));
     }
 }
