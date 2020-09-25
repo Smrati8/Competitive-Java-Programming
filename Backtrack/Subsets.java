@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Subsets {
 //Cascading
     public List<List<Integer>> subsets(int[] nums) {
@@ -12,5 +14,9 @@ class Subsets {
             }
         }
         return result;
+    }
+    
+    public static void main(String arg[]) {
+        int nums[] = 
     }
 }
