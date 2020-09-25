@@ -1,4 +1,5 @@
-class Solution {
+class Subsets {
+//Cascading
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         result.add(new ArrayList<>());
